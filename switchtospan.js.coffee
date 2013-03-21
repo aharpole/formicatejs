@@ -10,8 +10,7 @@ class SwitchToSpan
     @replace @input, @span
   
   bind: ($span) =>
-    prepare = new Prepare $('#new_opportunity') if $('#new_opportunity')
-    prepare = new Prepare $('.edit_opportunity') if $('.edit_opportunity')
+    prepare = new Prepare $('#your_form_object') if $('#your_form_object')
     # prepare.bind $span
   
   hiddeninput: ($span, $inputValue) =>
