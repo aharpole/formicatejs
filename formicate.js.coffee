@@ -1,16 +1,3 @@
-# former
-
-# role = admi
-# find $('.waiting') from haml file
-# switchToInput()
-  # div / span
-# editable state
-  # checks for callback on how to handle it
-# onblur
-  # validate?
-  # as a callback?
-# switchToSpan()
-
 class Formicate
   constructor: (formElement, admin) ->
     @formElement = formElement
