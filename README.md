@@ -1,6 +1,6 @@
 <h3>formicate.js</h3>
 
-Turn spans into inputs in your form element.
+Turn spans into fancy editable inputs in your form element.
 
 <h3>Requirements</h3>
 jQuery
