@@ -5,6 +5,10 @@ Turn spans into fancy editable inputs in your form element.
 <h3>Requirements</h3>
 jQuery, CoffeeScript
 
+<h3>Steps</h3>
+
+    $ git clone https://github.com/fullscreeninc/formicatejs.git
+    
 <h3>Usage</h3>
 In main.js.coffee
 
