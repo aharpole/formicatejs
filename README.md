@@ -2,6 +2,9 @@
 
 Turn spans into fancy editable inputs in your form element.
 
+<h3>Like this</h3>
+http://fullscreeninc.github.io/formicatejs/
+
 <h3>Requirements</h3>
 jQuery, CoffeeScript
 
