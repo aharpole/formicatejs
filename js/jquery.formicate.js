@@ -46,8 +46,8 @@
     SwitchToSpan.prototype.bind = function($span) {
       var prepare;
 
-      if ($('#formicate')) {
-        return prepare = new Prepare($('#formicate'));
+      if ($('#your_form_object')) {
+        return prepare = new Prepare($('#your_form_object'));
       }
     };
 
@@ -202,10 +202,10 @@
     }
   };
 
-  // $(function() {
-  //   if ($('#formicate')) {
-  //     return $('#formicate').formicate();
-  //   }
-  // });
+  $(function() {
+     if ($('#your_form_object')) {
+       return $('#your_form_object').formicate();
+     }
+   });
 
 }).call(this);
