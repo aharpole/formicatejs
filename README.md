@@ -3,7 +3,7 @@
 Turn spans into fancy editable inputs in your form element.
 
 <h3>Requirements</h3>
-jQuery
+jQuery, CoffeeScript
 
 <h3>Usage</h3>
 In main.js.coffee
