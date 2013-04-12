@@ -30,25 +30,28 @@
           <li><a class="buttons github" href="https://github.com/fullscreeninc/formicatejs">View On GitHub</a></li>
         </ul>
 
-        <p class="header">This project is maintained by <a class="header name" href="https://github.com/fullscreeninc">fullscreeninc</a></p>
+        <p class="header">A cute little plugin that turns spans into inputs.</p>
 
 
       </header>
       <section>
         <h3>How does it work anyway?</h3>
-        <form id="form_example">
-          <p><span class="waiting">Please Hover!<span></p>
-          <p><span class="waiting">Click me!<span></p>
-          <p><span class="waiting">Edit me!<span></p>
-          <p><span class="waiting">Me too!<span></p>
+        <form id="your_form_object">
+          <div><span class="waiting">Please Hover!</span></div>
+          <div><span class="waiting">Click me!</span></div>
+          <div><span class="waiting">Edit me!</span></div>
+          <div><span class="waiting">Me too!</span></div>
         <form>
           
         <h3></h3>
         <p></p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<pre><code> &lt;form id="your_form_object"&gt;
+    &lt;span class="waiting"&gt;Please Hover!&lt;/span&gt;
+    &lt;span class="waiting"&gt;Click me!&lt;/span&gt;
+    &lt;span class="waiting"&gt;Edit me!&lt;/span&gt;
+    &lt;span class="waiting"&gt;Me too!&lt;/span&gt;
+  &lt;/form&gt;
 </code></pre>
         <p>Is this exciting, or what?!</p>
         
@@ -61,12 +64,13 @@ $ git checkout gh-pages
           single JavaScript file while drinking coffees and cokes.</p>
         
         <h3>License</h3>
+        Copyright (c) 2013 Fullscreen, Inc.
         <p>This software is released under the 
           <a href="http://opensource.org/licenses/MIT" target="_blank">MIT License</a>.</p>
   
       </section>
       <footer>
-        <p><small>Copyright (c) 2013 Fullscreen, Inc.</small></p>
+        <p><small>This project is maintained by <a href="https://github.com/fullscreeninc">fullscreeninc</a></small></p>
       </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->

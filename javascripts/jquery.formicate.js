@@ -46,8 +46,8 @@
     SwitchToSpan.prototype.bind = function($span) {
       var prepare;
 
-      if ($('#form_example')) {
-        return prepare = new Prepare($('#form_example'));
+      if ($('#your_form_object')) {
+        return prepare = new Prepare($('#your_form_object'));
       }
     };
 
@@ -203,8 +203,8 @@
   };
 
   $(function() {
-     if ($('#form_example')) {
-       return $('#form_example').formicate();
+     if ($('#your_form_object')) {
+       return $('#your_form_object').formicate();
      }
   });
 
